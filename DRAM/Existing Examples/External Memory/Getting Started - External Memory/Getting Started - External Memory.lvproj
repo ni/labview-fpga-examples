@@ -1,8 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">Demonstrates how to access external DRAM memory from the FPGA. Demonstrated access methods include Low Level memory ,rimitives, Memory IDL, and DRAM FIFO. </Property>
+	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -205,10 +206,6 @@
 				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 			</Item>
-			<Item Name="IP Builder" Type="IP Builder Target">
-				<Item Name="Dependencies" Type="Dependencies"/>
-				<Item Name="Build Specifications" Type="Build"/>
-			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="instr.lib" Type="Folder">
 					<Item Name="niInstr Memory DRAM v1 FPGA.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Memory/v1/FPGA/DRAM/niInstr Memory DRAM v1 FPGA.lvclass"/>
@@ -229,6 +226,7 @@
 				</Item>
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/RVI/Simulation/lvSimController.dll"/>
 				</Item>
 				<Item Name="latch till ready for input.vi" Type="VI" URL="../subVI/latch till ready for input.vi"/>
 			</Item>
