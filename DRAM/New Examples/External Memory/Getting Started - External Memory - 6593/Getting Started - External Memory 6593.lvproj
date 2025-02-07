@@ -2547,7 +2547,7 @@ Memory IDLActual Number of Elements=32768;ReadArbs=1;WriteArbs=1;Implementation=
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 			</Item>
 			<Item Name="Routing" Type="FPGA Component Level IP">
-				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
+				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">false</Property>
 				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
 <CLIPConnections>
    <CLIPSignal name="DataClk">
@@ -3583,7 +3583,6 @@ Memory IDLActual Number of Elements=32768;ReadArbs=1;WriteArbs=1;Implementation=
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/RVI/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="latch till ready for input.vi" Type="VI" URL="../subVI/latch till ready for input.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Getting Started - External Memory (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -7194,7 +7193,6 @@ Memory IDLActual Number of Elements=32768;ReadArbs=1;WriteArbs=1;Implementation=
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/RVI/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="latch till ready for input.vi" Type="VI" URL="../subVI/latch till ready for input.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Getting Started - External Memory (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -7273,7 +7271,8 @@ Memory IDLActual Number of Elements=32768;ReadArbs=1;WriteArbs=1;Implementation=
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Ext_Mem 6593.lvbitx" Type="Document" URL="../FPGA Bitfiles/Ext_Mem 6593.lvbitx"/>
+			<Item Name="Ext_Mem 6593 KU040.lvbitx" Type="Document" URL="../FPGA Bitfiles/Ext_Mem 6593 KU040.lvbitx"/>
+			<Item Name="Ext_Mem 6593 KU060.lvbitx" Type="Document" URL="../FPGA Bitfiles/Ext_Mem 6593 KU060.lvbitx"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
